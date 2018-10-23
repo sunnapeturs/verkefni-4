@@ -1,0 +1,98 @@
+
+body{
+	font-family: 'Rubik', sans-serif;
+}
+.container{
+	width: 90%;
+	margin:0 auto;
+}
+h1{
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 40px;
+	margin-top: 30px;
+	color: #42e5f4;
+	text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+}
+.cardContainer{
+	width: 90%;
+	margin:0 auto;
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+/* CARD */
+.card{
+	width: 48%;
+	height: 500px;
+	
+}
+.card img{
+	width: 100%;
+	height: 400px;
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2); 
+	transition: all .5s;
+}
+.card img:hover{
+	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5);
+	transition: all .5s;
+
+}
+.card-content{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	color:#fff;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+.card-content p{
+	position: absolute;
+	top:10px;
+	left:10px;
+
+}
+.card-content h2{
+	position: absolute;
+	top: 60%;  
+    left: 50%; 
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2); 
+
+}
+.card-content h3{
+	position: absolute;
+	top:360px;
+	font-weight: 300;
+	left:10px;
+}
+.card button{
+	position: absolute;
+	background-color:#000;
+    color:#42e5f4;
+    border: none;
+    padding: 10px 40px;
+
+    font-size: 20px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    outline: inherit;
+    opacity: 0;
+    transition:300ms;
+
+}
+.card button:hover{
+	opacity: 0;
+}
+/* CARD FORM */
+.new-card{
+	width: 40%;
+	margin:0 auto;
+	margin-bottom: 50px;
+
+}
